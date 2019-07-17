@@ -19,5 +19,13 @@
     },
     "devDependencies": {
         "webpack-notifier": "1.7.*"
+    },
+    "resolutions": {
+        "webpack": "^4.20.0",
+        "lodash": "^4.17.14"
+    },
+    "engines": {
+        "node": ">=12",
+        "yarn": ">=1.17.3"
     }
 }

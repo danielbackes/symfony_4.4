@@ -12,17 +12,17 @@ Symfony4.4 template project to deploy dev or prod environment inside docker cont
 - Apache: v2.4.25
   
 ### 1.2. Dockerfile:
-- NodeJS: v11.*
-- Yarn: stable version (1.12.3)
-- Composer: stable version (1.8.0)
+- NodeJS: v12.6
+- Yarn: 1.17.3
+- Composer: 1.8.6
 
 ## 2. Project configuration
 
 ### 2.1. Composer:
-- Symfony: v4.2
+- Symfony: v4.4
  
 ### 2.2. Yarn:
-- Webpack: v3.12
+- Webpack: v4.36
 - Bootstrap: v4.3
 - FontAwesome: v5.9
 
@@ -56,7 +56,7 @@ git clone git@github.com:danielbackes/symfony4.4.git {project-name};
     - environment/prod/config/ssl/private/{project-name}.pem
 
 ### 5.4. Create docker scripts
-- Inside the files bellow, replace `{project-name}` occurrences for your project name:
+- Inside the files bellow, replace `{project-name}` and `{docker-hub-username}` occurrences:
     - environment/dev/app-build.sh
     - environment/dev/app-watch.sh
     - environment/dev/env-bash.sh
