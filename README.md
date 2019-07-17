@@ -55,7 +55,7 @@ git clone git@github.com:danielbackes/symfony4.4.git {project-name};
     - environment/prod/config/ssl/certs/{project-name}.pem 
     - environment/prod/config/ssl/private/{project-name}.pem
 
-### 5.4. Create the build and watch scripts
+### 5.4. Create docker scripts
 - Inside the files bellow, replace `{project-name}` occurrences for your project name:
     - environment/dev/app-build.sh
     - environment/dev/app-watch.sh
@@ -74,7 +74,7 @@ git clone git@github.com:danielbackes/symfony4.4.git {project-name};
     - readme/installation/dev.md
     - readme/installation/prod.md
     - readme/update/docker-image.md
-    - readme/update/website-project.mdSymfony4.4 template project to deploy dev or prod environment inside docker container.
+    - readme/update/website-project.md
 
 ### 5.6. Commit project
 
