@@ -1,0 +1,1 @@
+sudo docker build --tag {docker-hub-username}/{project-name}:dev .

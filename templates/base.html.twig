@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>
+            {% block title %}
+                Symfony4
+            {% endblock %}
+        </title>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="google-site-verification" content="JC4oO21kJJuJO7V7Ip-JLTFhMIgsyvB_GKUDuFWqjvo" />
+
+        <link rel="icon" type="image/png" sizes ="16x16" href="{{ asset('build/favicon-16x16.png') }}" />
+        <link rel="icon" type="image/png" sizes ="32x32" href="{{ asset('build/favicon-32x32.png') }}" />
+
+        <link rel="stylesheet" href="{{ asset('build/base.css') }}">
+
+        {% block stylesheets %}
+        {% endblock %}
+    </head>
+
+    <body>
+        {% block body %}
+        {% endblock %}
+
+        <script src="{{ asset('build/runtime.js') }}"></script>
+        <script src="{{ asset('build/base.js') }}"></script>
+
+        {% block javascripts %}
+        {% endblock %}
+    </body>
+</html>

@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('build/home/index.css') }}">
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center">
+                    Symfony 4.4 Long Term Support
+                </h2>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 col-md-6 text-center">
+                <span style="color: Dodgerblue;">
+                    <i class="fab fa-9x fa-symfony"></i>
+                </span>
+            </div>
+            <div class="col-12 col-md-6 text-center">
+                <span style="color: Tomato;">
+                    <i class="fab fa-9x fa-docker"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    <script src="{{ asset('build/home/index.js') }}"></script>
+{% endblock %}
