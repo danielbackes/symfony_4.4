@@ -1,6 +1,14 @@
 {
-    "license": "MIT",
-    "private": true,
+    "name": "@danielbackes/symfony-4",
+    "version": "0.0.1",
+    "description": "Symfony4.4 template project to deploy development and production environment inside docker container.",
+    "keywords": [
+        "Symfony4",
+        "Docker"
+    ],
+    "author": "Daniel Backes",
+    "email": "danielbackes@protonmail.com",      
+    "license": "MIT",    
     "scripts": {
         "dev-server": "encore dev-server",
         "dev": "encore dev",
