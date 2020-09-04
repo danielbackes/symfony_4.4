@@ -20,7 +20,7 @@
         "@symfony/webpack-encore": "0.27.*",
         "bootstrap": "4.3.*",
         "jquery": "3.4.*",
-        "node-sass": "4.12.*",
+        "node-sass": "4.13.*",
         "path": "0.12.*",
         "popper.js": "1.15.*",
         "sass-loader": "7.1.*"
